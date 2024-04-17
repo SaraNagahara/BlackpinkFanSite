@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testes bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        img{
+            width: 200px;
+            height: 500px;
+        }
+
+        .cards{
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           flex-wrap: wrap;
+           width: 200vh;
+        }
+
+        .bppic{
+          width: 100%;
+        }
+
+        .feature-icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.75rem;
+      }
+      
+ 
+      
+    </style>
+</head>
+<body>
+      <div class="container">
+        <header class="d-flex justify-content-center py-3 px-4 bg-dark fixed-top">
+          <ul class="nav nav-pills ">
+            <li class="nav-item"><a href="#" class=" text-light nav-link btn btn-outline-secondary" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class=" text-light nav-link btn btn-outline-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class=" text-light nav-link btn btn-outline-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class=" text-light nav-link btn btn-outline-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class=" text-light nav-link btn btn-outline-secondary">About</a></li>
+          </ul>
+        </header>
+      </div>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img class="bppic" src="https://i.pinimg.com/564x/e9/56/ee/e956ee7a7e8ab4304acdca02e63174e7.jpg" class="d-block mx-lg-auto img-fluid" alt="Blackpink Girls" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Blackpink World</h1>
+            <p class="lead">A web page made by a blink that is intend to share pictures, videos, curiosities about the blackpink band and a lot more stuffs. Keep talkin', we shut you down! Please dear blink enjoy it and have fun in my website. Don't forget to share with your blink friends. Blackpink in your area. </p>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/31/fd/53/31fd53b6dc87e714783b5c52531ba6fb.jpg" class="card-img-top object-fit-cover border rounded" alt="Rosé">
+        <div class="card-body">
+          <h5 class="card-title">Rosé</h5>
+          <p class="card-text">Roseanne Park, referenciada como Rosé, é uma cantora coreana-australiana baseada na Coreia do Sul,  É integrante do grupo BLACKPINK,</p>
+          <a href="https://www.instagram.com/roses_are_rosie/" class="btn btn-secondary bg-dark" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/0c/0d/6d/0c0d6d6e41711f70e282142f222daf3f.jpg" class="card-img-top object-fit-cover border rounded" alt="Lisa">
+        <div class="card-body">
+          <h5 class="card-title">Lisa</h5>
+          <p class="card-text">Lalisa Manobal, reconhecida pelo nome artístico Lisa, é uma cantora e dançarina tailandesa. É integrante do grupo feminino sul-coreano BLACKPINK,</p>
+          <a href="https://www.instagram.com/lalalalisa_m/" class="btn btn-secondary bg-dark" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/92/63/4f/92634f6e3e56abdca798e13a54c19d80.jpg" class="card-img-top object-fit-cover border rounded" alt="Jennie">
+        <div class="card-body">
+          <h5 class="card-title">Jennie</h5>
+          <p class="card-text">Kim Jennie, conhecida mononimamente como Jennie, é uma cantora, rapper e atriz sul-coreana. Nascida e criada na Coreia do Sul, É integrante do grupo feminino sul-coreano BLACKPINK,</p>
+          <a href="https://www.instagram.com/jennierubyjane/" class="btn btn-secondary bg-dark" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/78/aa/7e/78aa7e7575974154faeab13e3ffba73d.jpg" class="card-img-top object-fit-cover border rounded" alt="Jisoo">
+        <div class="card-body">
+          <h5 class="card-title">Jisoo</h5>
+          <p class="card-text">Kim Ji-soo, conhecida mononimamente como Jisoo, é uma cantora e atriz sul-coreana. Ela é integrante do girl group sul-coreano BLACKPINK,</p>
+          <a href="https://www.instagram.com/sooyaaa__/" class="btn btn-secondary bg-dark" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-4x bi-journal-album" viewBox="0 0 16 16">
+              <path d="M5.5 4a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5zm1 7a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Albuns</h3>
+          <p>Some of blackpink most popular pictures and background for your desktop and smartphone check out. there are some solos pictures too</p>
+          <a href="#" class="icon-link ">
+            Pictures
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-4x bi-file-earmark-music" viewBox="0 0 16 16">
+              <path d="M11 6.64a1 1 0 0 0-1.243-.97l-1 .25A1 1 0 0 0 8 6.89v4.306A2.6 2.6 0 0 0 7 11c-.5 0-.974.134-1.338.377-.36.24-.662.628-.662 1.123s.301.883.662 1.123c.364.243.839.377 1.338.377s.974-.134 1.338-.377c.36-.24.662-.628.662-1.123V8.89l2-.5z"/>
+              <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Songs</h3>
+          <p>Check out the link where you go to them spotify album and enjoy their songs, don't forget to give your like on the songs</p>
+          <a href="#" class="icon-link">
+            Spotify
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-4x bi-film" viewBox="0 0 16 16">
+              <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Videos</h3>
+          <p>In this link you're going to see a lot of funny blackpink videos and clips and choreograph too, some blinks youtube channels too.</p>
+          <a href="#" class="icon-link">
+            Youtube
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+      <footer class="py-3 my-4 bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class=" text-light nav-link px-2 text-body-light">Home</a></li>
+          <li class="nav-item"><a href="#" class=" text-light nav-link px-2 text-body-light">Features</a></li>
+          <li class="nav-item"><a href="#" class=" text-light nav-link px-2 text-body-light">Pricing</a></li>
+          <li class="nav-item"><a href="#" class=" text-light nav-link px-2 text-body-light">FAQs</a></li>
+          <li class="nav-item"><a href="#" class=" text-light nav-link px-2 text-body-light">About</a></li>
+        </ul>
+        <p class="text-light text-center text-body-light">© 2016 YG Company, Inc © Created by Sara Nagahara</p>
+      </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
